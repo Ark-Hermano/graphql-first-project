@@ -6,8 +6,6 @@ const {
   GraphQLList,
 } = require('graphql')
 
-
-//data shape
 const PeopleType = new GraphQLObjectType({
   name: 'People',
   fields: () => ({
